@@ -1,0 +1,148 @@
+/* =========================
+   CONFIGURACIÓN GENERAL
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   ENCABEZADO
+   ========================= */
+
+header {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #60a5fa;
+}
+
+header p {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: #d1d5db;
+}
+
+
+/* =========================
+   CONTENIDO PRINCIPAL
+   ========================= */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #111827;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 8px;
+}
+
+
+/* =========================
+   HABILIDADES
+   ========================= */
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 30px;
+    padding-left: 20px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+
+/* =========================
+   PROYECTOS
+   ========================= */
+
+section h3 {
+    margin-top: 25px;
+    color: #2563eb;
+}
+
+section h3:first-of-type {
+    margin-top: 15px;
+}
+
+
+/* =========================
+   ENLACES
+   ========================= */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   DISEÑO PARA CELULAR
+   ========================= */
+
+@media (max-width: 650px) {
+
+    header {
+        padding: 45px 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 20px 15px;
+    }
+
+    section {
+        padding: 22px;
+    }
+
+    ul {
+        grid-template-columns: 1fr;
+    }
+}
