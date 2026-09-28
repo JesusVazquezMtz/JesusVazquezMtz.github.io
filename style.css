@@ -144,5 +144,42 @@ a:hover {
 
     ul {
         grid-template-columns: 1fr;
+       /* =========================
+   MENÚ DE NAVEGACIÓN
+   ========================= */
+
+nav {
+    background-color: #0f172a;
+    text-align: center;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+section {
+    scroll-margin-top: 75px;
+}
+
+@media (max-width: 650px) {
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+        font-size: 0.9rem;
     }
 }
+    
+
