@@ -183,5 +183,15 @@ section {
         font-size: 0.9rem;
     }
 }
+
+.project-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+}
     
 
