@@ -193,7 +193,7 @@ section {
     border-radius: 8px;
     border: 1px solid #d1d5db;
 }
-#contacto a {
+#contacto a[href^="mailto:"] {
     overflow-wrap: anywhere;
     word-break: break-word;
 }
