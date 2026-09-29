@@ -193,7 +193,7 @@ section {
     border-radius: 8px;
     border: 1px solid #d1d5db;
 }
-.contact-card a {
+#contacto a {
     overflow-wrap: anywhere;
     word-break: break-word;
 }
