@@ -194,8 +194,9 @@ section {
     border: 1px solid #d1d5db;
 }
 #contacto a[href^="mailto:"] {
-    overflow-wrap: anywhere;
-    word-break: break-word;
+    font-size: 0.85em;
+    overflow-wrap: break-word;
+    word-break: normal;
 }
     
 
