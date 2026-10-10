@@ -248,12 +248,13 @@ section {
 }
 /* FOTOGRAFÍAS DE MANTENIMIENTO */
 
-#evidencias .project-image {
+#evidencias img {
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     height: auto;
     display: block;
     margin: 15px auto;
+    object-fit: contain;
 }
 
 
