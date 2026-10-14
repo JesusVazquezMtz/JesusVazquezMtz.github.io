@@ -220,8 +220,8 @@ section {
 
 .mantenimiento-item img {
     width: 100%;
-    max-width: 65px;
-    height: 45px;
+    max-width: 500px;
+    height: auto;
     object-fit: contain;
     display: block;
     margin: 15px auto;
