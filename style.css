@@ -221,7 +221,7 @@ section {
 .mantenimiento-item img {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 200px;
     object-fit: contain;
     display: block;
     margin: 15px auto;
