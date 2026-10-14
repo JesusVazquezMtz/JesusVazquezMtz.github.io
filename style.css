@@ -250,7 +250,18 @@ section {
         height: auto;
     }
 }
+/* =========================
+   IMÁGENES DE MANTENIMIENTO
+   ========================= */
 
+#evidencias .project-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    object-fit: contain;
+}
 
 
 
