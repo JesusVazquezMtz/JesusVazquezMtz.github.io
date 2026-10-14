@@ -262,6 +262,47 @@ section {
     margin: 15px auto;
     object-fit: contain;
 }
+/* =========================
+   COMPARATIVA DE RENDIMIENTO
+   ========================= */
+
+.comparativa-rendimiento {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.rendimiento-item {
+    background-color: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    min-width: 0;
+}
+
+.rendimiento-item img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+}
+
+.rendimiento-item h4 {
+    color: #2563eb;
+}
+
+/* DISEÑO PARA CELULARES */
+
+@media (max-width: 650px) {
+    .comparativa-rendimiento {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 
