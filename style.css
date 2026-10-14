@@ -219,7 +219,7 @@ section {
 }
 
 .mantenimiento-item img {
-    width: 100%;
+    width: 70%;
     max-width: 65px;
     height: 45px;
     object-fit: contain;
